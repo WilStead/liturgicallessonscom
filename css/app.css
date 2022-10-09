@@ -60,10 +60,16 @@ section p:last-of-type {
 .highlight-image {
     float: right;
     margin-left: 1rem;
+    max-width: 100%;
 }
 .contact-link {
     color: inherit;
     display: block;
-    font-size: 1.625rem;
+    font-size: 1rem;
     text-decoration: none;
+}
+@media screen and (min-width: 1024px) {
+    .contact-link {
+        font-size: 1.625rem;
+    }
 }
