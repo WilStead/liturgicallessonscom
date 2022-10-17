@@ -40,7 +40,10 @@ section p:last-of-type {
     width: 3rem;
 }
 .media-icons span a {
-    display: contents;
+    display: grid;
+    height: 100%;
+    place-items: center;
+    width: 100%;
 }
 .media-icons span img {
     width: 2.5rem;
